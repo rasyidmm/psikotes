@@ -134,7 +134,8 @@
             <i class="fa fa-user"></i> <span>Peserta</span>
           </a>
             <ul class="treeview-menu">
-              <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Tambah Peserta</a></li>
+              <li><a href="HalamanTambahPeserta.html"><i class="fa fa-circle-o"></i> Tambah Peserta</a></li>
+              <li><a href="HalamanPilihPeserta.html"><i class="fa fa-circle-o"></i> Pilih Peserta</a></li>
             </ul>
         </li>
 
@@ -143,17 +144,17 @@
             <i class="fa fa-file-o"></i> <span>Soal Test</span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Tambah Soal</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Pilih Soal</a></li>
+            <li><a href="HalamanTambahSoal.html"><i class="fa fa-circle-o"></i> Tambah Soal</a></li>
+            <li><a href="HalamanPilihSoal.html"><i class="fa fa-circle-o"></i> Pilih Soal</a></li>
           </ul>
         </li>
 
         <li class="treeview">
           <a href="#">
-            <i class="fa  fa-bar-chart"></i> <span>Jawaban Peserta</span>
+            <i class="fa  fa-bar-chart"></i> <span>Hasil Tes</span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Hasil Jawaban</a></li>
+            <li><a href="HalamanJawabanPeserta.html"><i class="fa fa-circle-o"></i> Hasil Jawaban</a></li>
           </ul>
         </li>
 
@@ -180,9 +181,9 @@
                     <div class="form-group">
                       <label>Kelompok Soal</label>
                       <select class="form-control">
-                        <option>Matematika</option>
+                        
                         <option>Psikotes</option>
-                        <option>Fisika</option>
+                       
                       </select>
                     </div>
                   </div>
@@ -197,6 +198,7 @@
                       <option>Sub 2</option>
                       <option>Sub 3</option>
                       <option>Sub 4</option>
+                      <option>Tambah Sub</option>
                     </select>
                   </div>
                 </div>
@@ -222,14 +224,24 @@
                 </thead>
                 <tbody>
                 <tr>
-                  <td><input type="checkbox"></td>
+                  <td><div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                  </label>
+                </div></td>
                   <td>1</td>
                   <td>Rasyid Maulid</td>
                   <td>rasyid@gmail.com</td>
                   <td>1a2b3c</td>
                 </tr>
                 <tr>
-                  <td><input type="checkbox"></td>
+                  <td><div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                  </label>
+                </div></td>
                   <td>2</td>
                   <td>Risang Ramada</td>
                   <td>risang@gmail.com</td>
@@ -237,7 +249,12 @@
 
                 </tr>
                 <tr>
-                  <td><input type="checkbox"></td>
+                  <td><div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                  </label>
+                </div></td>
                   <td>3</td>
                   <td>Zelina Yasinta</td>
                   <td>zelina@gmail.com</td>
