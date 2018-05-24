@@ -22,6 +22,9 @@ body {
   font-weight: 1000;
   overflow-x: hidden;
   overflow-y: auto;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+
 }
 /* Layout */
 .checkbox label:after,
