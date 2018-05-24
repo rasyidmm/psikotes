@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   letter-spacing: 1px;
-  line-height: 2;
+  /* line-height: 2; */
 
 }
 /* Layout */
@@ -553,7 +553,7 @@ a:focus {
   top: 0;
   left: 0;
   padding-top: 50px;
-  min-height: 100%;
+  min-height: 115%;
   width: 175px;
   z-index: 1000;
   -webkit-transition: -webkit-transform 0.3s ease-in-out, width 0.3s ease-in-out;
